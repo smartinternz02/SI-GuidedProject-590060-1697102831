@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='nit.css')}}">
+
+    <title>Colon Disease Prediction</title>
+</head>
+<body>
+    
+    <div class="navbar">
+        <a href="/home">Home</a>
+        <a href="/about">About</a>
+        <a href="/predict">Predict</a>
+        <a href="/contact">Contact</a>
+        <a href="/home">Inspect</a>
+        
+    </div> 
+    <h1 id="gg">COLON DISEASE.</h1>
+     <div class="para">
+            <h3>The Person is diagonsed with colon Disease</h3>
+        </div>
+        <br>
+    <div class="button">
+        <form action="/result" method="post" enctype="multipart/form-data">
+            <h3>upload image:</h3>
+            <div class="mb-3">
+                <input type="file" class="form-control" name="image" accept="image/*">
+            </div>
+            <button type="submit" class="btn btn-primary">Upload</button>
+        </form>
+    </div>
+      
+    
+    
+</body>
+</html>

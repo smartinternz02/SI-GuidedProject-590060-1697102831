@@ -1,0 +1,229 @@
+/* Reset some default styles */
+body{
+    background-image: url('https://img.freepik.com/premium-photo/intestines-hologram-blue-background-constipation_99433-5665.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+h1, p {
+    margin: 0;
+    padding: 0;}
+
+/* Styling for the background image */
+.background-image {
+    background-image: url('https://img.freepik.com/premium-photo/intestines-hologram-blue-background-constipation_99433-5665.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-image h1 {
+    font-size: 36px;
+}
+
+.background-image p {
+    font-size: 24px;
+}
+
+/* Styling for the transparent navbar */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+/* Style links in the navbar */
+.navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+#gg{
+    position: absolute;
+    left: 40%;
+    top: 14%;
+
+    color: rgb(5, 20, 25);
+}
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the navbar */
+.navbar {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+/* Style links in the navbar */
+.navbar a:hover {
+    background-color: #555;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+/* Styling for the content container */
+.content {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Styling for the left-side (image) */
+.left-side {
+    flex: 1;
+}
+
+.left-side img {
+    width: 100%;
+    height: auto;
+}
+
+/* Styling for the right-side (headings and points) */
+.right-side {
+    flex: 2;
+    padding: 20px;
+}
+
+.right-side h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.right-side p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+/* Reset some default styles */
+body, h1, h2, p, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* Styling for the main heading */
+.main-heading {
+    text-align: center;
+    font-size: 32px;
+    margin: 20px;
+}
+
+/* Styling for the content container */
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: auto;
+}
+
+/* Styling for the left half */
+.left-half {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+/* Styling for side headings with icons */
+.side-heading {
+    display: flex;
+    align-items: center;
+}
+
+.side-heading img {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.side-heading h2 {
+    font-size: 24px;
+}
+.button {
+    background: #fff;
+    border: 0;
+    outline: 0;
+    color: #000;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 5% 10% 90px 43%;
+
+        background-color: transparent; 
+        height: 50px; 
+        width: 200px; 
+         
+        font-size: 1.5em; 
+}
+.para {
+ padding-left: 38%;
+ padding-bottom: 20px;
+ padding-top: 7%;
+}
+
+/* Styling for the right half */
+.right-half {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+/* Styling for text input and textarea */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Styling for the submit button */
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+     
+}
+
+button:hover {
+    background-color:#555;
+}
+.Output{
+    background: #fff;
+    border: 0;
+    outline: 0;
+    color: #000;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 5% 40% 90px 10%;
+    background-color: transparent;
+    
+}
